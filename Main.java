@@ -2,9 +2,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+        
+        System.out.println("================VOLUME BANGUN RUANG================");
         System.out.print("Silahkan Memasukkan Bangun Ruang (Kapital Perkata): ");
         String br = input.nextLine();
+        System.out.println("---------------------------------------------------");
         
         switch(br){
             case "Bola":
@@ -15,6 +17,7 @@ public class Main {
                 
                 bol.r = er;
                 bol.Volume();
+                System.out.println("================VOLUME BANGUN RUANG================");
                 break;
             
             case "Kubus":
