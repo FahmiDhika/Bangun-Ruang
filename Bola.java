@@ -5,7 +5,7 @@ public class Bola extends BangunRuang{
     double Volume(){
         
         double volumeB = (Math.PI * r * r * r) * (4/3);
-        System.out.println("Volume Bangun Ruang Vola : " + volumeB);
+        System.out.println("Volume Bangun Ruang Bola : " + volumeB);
         return volumeB;
         
     }

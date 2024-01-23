@@ -1,4 +1,4 @@
-public class Kubus extends BangunRuang{
+public class Kubus extends BangunRuang {
     double s;
     
     @Override
